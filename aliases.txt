@@ -1,0 +1,7 @@
+alias.amend commit --amend --no-edit
+alias.unstage reset HEAD --
+alias.untrack rm --cached
+alias.get-url remote get-url
+alias.show-remote remote show
+alias.last log -1 HEAD
+alias.amend-all !git commit -a --amend --no-edit
